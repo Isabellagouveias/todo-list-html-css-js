@@ -7,6 +7,10 @@ Este é um projeto simples de lista de tarefas. Ele permite adicionar tarefas, m
 - CSS
 - JavaScript
 
-![image](https://github.com/user-attachments/assets/c714edb3-1cbb-4ec6-9cbc-2bac52664aa5)
+## Acesse o projeto:
+- **Vercel**: https://todo-list-isa.vercel.app/
 
-![image](https://github.com/user-attachments/assets/4f044352-7d93-4968-a161-7c88502f1d93)
+## Capturas de Tela:
+
+![Captura 1](https://github.com/user-attachments/assets/c714edb3-1cbb-4ec6-9cbc-2bac52664aa5)
+![Captura 2](https://github.com/user-attachments/assets/4f044352-7d93-4968-a161-7c88502f1d93)
