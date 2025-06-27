@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Minha Lista de Tarefas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Minha Lista de Tarefas</h1>
+      <div class="form">
+        <input id="nomeInput" type="text" placeholder="Nome" />
+        <input id="descInput" type="text" placeholder="Descrição" />
+        <button onclick="addTask()">Adicionar</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <p id="modal-message">O nome da tarefa é obrigatório!</p>
+        <button onclick="closeModal()" class="modal-btn">OK</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
